@@ -1,0 +1,21 @@
+name: 'Get Minecraft Version'
+description:
+  'Finds the latest Minecraft version matching a version search string'
+author: Twelve Iterations
+
+branding:
+  icon: heart
+  color: red
+
+inputs:
+  version:
+    description: 'Version to search for (e.g., 26.1)'
+    required: true
+
+outputs:
+  version:
+    description: 'The latest Minecraft version matching the search criteria'
+
+runs:
+  using: node20
+  main: dist/index.js
