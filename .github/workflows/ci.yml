@@ -57,7 +57,7 @@ jobs:
         id: test-action
         uses: ./
         with:
-          version: '21.11.*'
+          version: '26.1'
 
       - name: Print Output
         id: output
